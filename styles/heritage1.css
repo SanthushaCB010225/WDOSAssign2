@@ -1,0 +1,33 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+    position: relative;
+    left: 25%;
+}
+article div{
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    animation: left-to-right 6s ease-in forwards 5 alternate;
+}
+
+.center{
+    height: auto;
+    width: auto;
+}
+
+@keyframes left-to-right{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

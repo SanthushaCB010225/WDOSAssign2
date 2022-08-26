@@ -1,0 +1,54 @@
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex: 33.3%;
+    background-color: beige;
+}
+
+
+
+article div{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    
+}
+img{
+    width: 90%;
+}
+
+
+.center1{
+    width: 70%;
+    position: relative;
+    left: 14%;
+}
+
+table{
+    position: relative;
+    left: 25%;
+}
+
+.button{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

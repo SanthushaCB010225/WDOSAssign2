@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+article{
+    flex: 50%;
+}
+
+ img{
+    width: 100%;
+    height: 60%;
+    
+}
+
+#link1{
+    background-color: aquamarine;
+}

@@ -1,0 +1,21 @@
+article div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+article div img{
+
+    flex: 50%;
+}
+
+article div p{
+
+    flex: 50%;
+}
+
+table{
+    position: relative;
+    left: 25%;
+}

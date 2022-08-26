@@ -1,0 +1,588 @@
+.activitiesform{
+
+    background-color: rgba(195, 255, 195, 0.075);
+
+    border-radius: 30px;
+
+    box-shadow: 0 0 20px 0px rgba(16, 65, 2, 0.274);
+
+    overflow: hidden;
+
+    padding: 20px;
+
+    width: 65%;
+
+    padding-top: 20px;
+
+    margin: auto;
+
+    margin-bottom: 25px;
+
+    transition: 1s;
+
+}
+
+ 
+
+.activitiesform form input {
+
+   
+
+    margin: auto;
+
+    padding: 10px;
+
+    outline: none;
+
+    border: 1px solid #ccc;
+
+ 
+
+}
+
+ 
+
+.activitiesform form p{
+
+   
+
+    border: solid 2px #009578 ;
+
+    border-radius: 30px;
+
+    width: 95%;
+
+    padding: 8px;
+
+    margin-bottom: 20px;
+
+   
+
+   
+
+}
+
+ 
+
+.contact-col div{
+
+    margin-bottom: 25px;
+
+}
+
+ 
+
+.activitiesform form{
+
+    margin: auto;
+
+    padding: 0px;
+
+    width: 75%;
+
+ 
+
+}
+
+.activitiesform  form .inputBox{
+
+    margin-top: 0px;
+
+}
+
+ 
+
+.activitiesform form .inputBox span{
+
+    display: block;
+
+    color:#999;
+
+   
+
+}
+
+ 
+
+.activitiesform form .flexbox .inputBox span{
+
+    display: block;
+
+    color:#999;
+
+   
+
+}
+
+
+
+
+.activitiesform form .inputBox input,
+
+.activitiesform form .inputBox select{
+
+    width: 100%;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    border:1px solid rgba(0,0,0,.3);
+
+    color:#444;
+
+}
+
+ 
+
+.activitiesform form .inputBox select{
+
+    padding: 2px;
+
+}
+
+.activitiesform  form .flexbox{
+
+    display: flex;
+
+    gap:15px;
+
+}
+
+ 
+
+.activitiesform form .flexbox .inputBox{
+
+    flex:1 1 50px;
+
+}
+
+ 
+
+.activitiesform  form .submit-btn{
+
+    width: 100%;
+
+    margin-left: 0%;
+
+    padding: 0%;
+
+    display:flexbox;
+
+    text-align: center;
+
+    background:#18feae;
+
+    color:#fcfefe;
+
+    margin-top: 0px;
+
+    padding: 13px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .2s linear;
+
+    vertical-align: middle;
+
+}
+
+ 
+
+.activitiesform  form .submit-btn:hover{
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+ 
+
+}
+
+ 
+
+.lbdate{
+
+    display: block;
+
+    color: rgb(48, 48, 48);
+
+    padding-bottom: 5px;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 20.5px;
+
+}
+
+ 
+
+#extra_items{
+
+    margin-top: 15px;
+
+}
+
+ 
+
+#output{
+
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+#summury-table {
+
+    display: none;
+
+    text-align: center;
+
+    width: 100%;
+
+    font-size: 15px;
+
+    padding: 2px;
+
+    margin-top: 30px;
+
+   
+
+  }
+
+#summury-table tr th{
+
+    width: 240px;
+
+}
+
+ 
+
+#table_divider{
+
+    border-top: solid #009578 3px;
+
+}
+
+ 
+
+#table_divider-final{
+
+    border-top: solid #009578 6px;
+
+    border-bottom:solid #009578 6px;
+
+}
+
+
+
+
+
+#divOrder {
+
+  margin: auto;
+
+  padding: 7px;
+
+  margin-top: 10px;
+
+ 
+
+}
+
+ 
+
+#localStorage{
+
+    display: flex;
+
+    width: 100%;
+
+    margin: auto;
+
+    margin-bottom: 10px;
+
+   
+
+}
+
+ 
+
+#addFavourite, #retriveFavourite{
+
+    display: inline-block;
+
+    width: 100%;
+
+    flex-basis: 49%;
+
+    background:#18feae;
+
+    color:#fcfefe;
+
+    border-radius: 10px;
+
+    transition: 1s;
+
+}
+
+ 
+
+#addFavourite{
+
+    padding: 15px;
+
+}
+
+ 
+
+#retriveFavourite{
+
+    padding: 15px;
+
+}
+
+ 
+
+#addFavourite:hover{
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+ 
+
+}
+
+ 
+
+#retriveFavourite:hover{
+
+    letter-spacing: 2px;
+
+    opacity: .8;
+
+ 
+
+}
+
+ 
+
+#checkLoyality{
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.showHide:link, .showHide:visited {
+
+    background-color:#009578;
+
+    color: white;
+
+    width: 99%;
+
+    padding-top: 6px;
+
+    font-size: 18px;
+
+    padding-bottom: 6px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    border: #000000 solid 1px;
+
+    border-radius: 10px;
+
+  }
+
+ 
+
+  .showHide:hover, .showHide:active {
+
+    background-color: #0095771a;
+
+    color: #009578;
+
+  }
+
+ 
+
+  #crrntOrder{
+
+      margin-top: 20px;
+
+  }
+
+ 
+
+  #overallOrder , #crrntOrder {
+
+    font-style:initial;
+
+  }
+
+ 
+
+  .alert{
+
+      text-align: center;
+
+      width: 100%;
+
+      padding: 8px;
+
+      margin-top: 30px;
+
+      margin-left: auto;
+
+      margin-right: auto;
+
+      font-size: 20px;
+
+      border: #009578 3px  solid;
+
+      border-radius: 20px;
+
+      outline-width: 3px;
+
+      outline-color: #009578;
+
+      opacity: 80%;
+
+     
+
+ 
+
+  }
+
+ 
+
+#trashBin{
+
+    padding: 0;
+
+    position: relative;
+
+    overflow: hidden;
+
+    max-height: 30px;
+
+    max-width: 30px;
+
+    position: relative;
+
+    display: block;
+
+}
+
+#placeorder{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#checkloyaltybtn{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#orderfavorite{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#addtofavorite{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#addtoorder{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#orderfavorite:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+#addtofavorite:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+#addtoorder:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+#placeorder:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+#checkloyaltybtn:hover{
+    background-color: #008cba;
+    color: white;
+}

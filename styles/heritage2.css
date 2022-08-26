@@ -1,0 +1,35 @@
+table{
+    position: relative;
+    left: 25%;
+}
+.heritage {
+    display: flex;
+    background-color: bisque;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+h1{
+    animation: left-to-right 6s ease-in forwards 5 alternate;
+}
+
+.heritage img{
+    width: 100%;
+}
+
+.center{
+    width: auto;
+    height: auto;
+}
+
+@keyframes left-to-right{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

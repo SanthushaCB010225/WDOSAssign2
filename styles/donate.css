@@ -1,0 +1,113 @@
+.donation-form form input, .donation-form form textarea{
+    align-items: center;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+
+
+#frmDonations{
+    width: 40%;
+}
+
+
+.paymentDetails{
+    width: 80%;
+}
+Button {
+	background-color:#F2EBE9;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#1c161c;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+Button:hover {
+	background-color:#4CAF50;
+  COLOR : white;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+button a{
+    text-decoration: none;
+    color: #1c161c;
+}
+
+/*.donation-form  form .submit-btn{
+    width: 80%;
+    align-items: left;
+    transform: translateX(15%);
+    margin: auto;
+    background:rgb(242, 242, 242);
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}*/
+
+.donation-form  form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+ h3{
+    padding: 20px;
+    padding-top: 60px;
+    font-size: 30px;
+    color: rgb(142, 104, 104);
+ }
+ 
+.donation-form{
+    background-color: rgba(195, 255, 195, 0.075);
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px rgba(16, 65, 2, 0.274);
+    overflow: hidden;
+    padding: 20px;
+    width: 65%;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+
+
+
+.donation-form  form{
+    margin: auto;
+    padding: 20px;
+
+}
+.donation-form  form .inputBox{
+    margin-top: 10px;
+}
+
+.donation-form form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+}
+
+.donation-form  form .inputBox input,
+.donation-form  form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
